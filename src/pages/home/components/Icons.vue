@@ -16,6 +16,7 @@
     </swiper>
   </div>
 </template>
+
 <script>
 export default {
   name: 'HomeIcons',
@@ -44,6 +45,7 @@ export default {
   }
 }
 </script>
+
 <style lang="stylus" scoped>
   @import '~styles/varibles.styl'
   @import '~styles/mixins.styl'
@@ -81,5 +83,4 @@ export default {
         text-align: center
         color: $darkTextColor
         ellipsis()
-
 </style>
